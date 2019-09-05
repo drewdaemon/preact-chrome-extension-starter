@@ -1,0 +1,25 @@
+{
+  "name": "preact-chrome-extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack && npm run copy:dist",
+    "copy:dist": "cp ./src/popup.html manifest.json ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-transform-react-jsx": "^7.3.0",
+    "@babel/preset-env": "^7.5.5",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  },
+  "dependencies": {
+    "preact": "^8.5.2"
+  }
+}
