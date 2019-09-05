@@ -1,4 +1,5 @@
 import { h, Component } from 'preact';
+import './app.scss';
 
 class App extends Component {
     render() {
